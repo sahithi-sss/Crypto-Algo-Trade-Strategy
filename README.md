@@ -84,21 +84,6 @@ cd crypto-trading-system
 pip install -r requirements.txt
 ```
 
-### Basic Usage
-```python
-from engine.core import TradingEngine
-from config.parameters import SystemParameters
-
-# Initialize trading engine
-engine = TradingEngine(parameters=SystemParameters())
-
-# Run strategy
-results = engine.run()
-
-# Generate performance analytics
-analytics = engine.generate_analytics()
-```
-
 ## Development and Testing
 
 ### Testing Framework
