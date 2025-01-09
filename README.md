@@ -59,22 +59,6 @@ numpy >= 1.20.0
 matplotlib >= 3.4.0
 ```
 
-### Project Structure
-```
-├── engine/
-│   ├── core.py             # Core trading engine
-│   ├── risk_manager.py     # Risk management system
-│   └── analytics.py        # Performance analytics
-├── models/
-│   ├── signals.py          # Signal generation
-│   └── portfolio.py        # Portfolio management
-├── utils/
-│   ├── data_handler.py     # Data processing
-│   └── visualizer.py       # Visualization tools
-└── config/
-    └── parameters.py       # System parameters
-```
-
 ## Performance Analysis
 
 ### Analytics Suite
